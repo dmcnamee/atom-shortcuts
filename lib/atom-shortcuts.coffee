@@ -53,8 +53,12 @@ module.exports = AtomShortcuts =
           Toggle command palette
         </div>
         <div class='item'>
-          <p><b>⌘ + /</b></p>
+          <p><b>⌘ + / </b></p>
           Toggle line/selection comment
+        </div>
+        <div class='item'>
+          <p><b>shift + ⌘ + / </b></p>
+          Menu search
         </div>
         <div class='item item-last'>
           <p><b>ctrl + space</b></p>
@@ -77,9 +81,13 @@ module.exports = AtomShortcuts =
           <p><b>shift + ⌘ + f</b></p>
           Find in project
         </div>
+        <div class='item'>
+          <p><b>⌘ + r</b></p>
+          Find symbol
+        </div>
         <div class='item item-last'>
-          <p><b>⌘ + e</b></p>
-          Use selection for find
+          <p><b>shift + ⌘ + r</b></p>
+          Find symbol in project
         </div>
       </div>
       <!-- /Find section -->
@@ -87,7 +95,7 @@ module.exports = AtomShortcuts =
       <div class='section'>
         <h2>View/Window Manipulation</h2>
         <div class='item'>
-          <p><b>⌘+ \</b></p>
+          <p><b>⌘+ \ </b></p>
           Toggle tree-view sidebar
         </div>
         <div class='item'>
@@ -184,12 +192,8 @@ module.exports = AtomShortcuts =
           Indent/outdent current line
         </div>
         <div class='item'>
-          <p><b>⌘ + enter</b></p>
+          <p><b>enter</b></p>
           Insert new line after current line
-        </div>
-        <div class='item'>
-          <p><b>⌘ + shift + enter</b></p>
-          Insert new line before current line
         </div>
         <div class='item'>
           <p><b>ctrl + shift + k</b></p>
@@ -214,15 +218,15 @@ module.exports = AtomShortcuts =
         <h2>Selection</h2>
         <div class='item'>
           <p><b>⌘ + d</b></p>
-          Select current word/token
+          Select current word/token (iterative)
         </div>
         <div class='item'>
           <p><b>⌘ + l</b></p>
-          Select current line
+          Select current line (iterative)
         </div>
         <div class='item'>
           <p><b>option + shift + left/right</b></p>
-          Select to beginning/end of word
+          Select to beginning/end of word (iterative)
         </div>
         <div class='item'>
           <p><b>shift + ⌘ + left/right</b></p>
