@@ -2,8 +2,8 @@ module.exports = AtomShortcuts =
 
   window: null
 
-  cmd:
-    code: 91
+  ctrl:
+    code: 17
     down: no
 
   Apostrophe:
@@ -23,13 +23,13 @@ module.exports = AtomShortcuts =
 
   keyDown: (e) ->
     @Apostrophe.down = yes if e.which is @Apostrophe.code
-    @cmd.down = yes if e.which is @cmd.code
-    @showWindow() if @Apostrophe.down and @cmd.down
+    @ctrl.down = yes if e.which is @ctrl.code
+    @showWindow() if @Apostrophe.down and @ctrl.down
 
   keyUp: (e) ->
     @Apostrophe.down = no if e.which is @Apostrophe.code
-    @cmd.down = no if e.which is @cmd.code
-    @hideWindow() if !@Apostrophe.down or !@cmd.down
+    @ctrl.down = no if e.which is @ctrl.code
+    @hideWindow() if !@Apostrophe.down or !@ctrl.down
 
   showWindow: ->
     @window.style.display = 'block'
