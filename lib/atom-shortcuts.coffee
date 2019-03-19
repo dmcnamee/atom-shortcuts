@@ -2,12 +2,12 @@ module.exports = AtomShortcuts =
 
   window: null
 
-  ctrl:
-    code: 17
+  cmd:
+    code: 91
     down: no
 
-  backTick:
-    code: 192
+  Apostrophe:
+    code: 222
     down: no
 
   activate: (state) ->
@@ -22,14 +22,14 @@ module.exports = AtomShortcuts =
     document.body.addEventListener 'keyup', @keyUp
 
   keyDown: (e) ->
-    @backTick.down = yes if e.which is @backTick.code
-    @ctrl.down = yes if e.which is @ctrl.code
-    @showWindow() if @backTick.down and @ctrl.down
+    @Apostrophe.down = yes if e.which is @Apostrophe.code
+    @cmd.down = yes if e.which is @cmd.code
+    @showWindow() if @Apostrophe.down and @cmd.down
 
   keyUp: (e) ->
-    @backTick.down = no if e.which is @backTick.code
-    @ctrl.down = no if e.which is @ctrl.code
-    @hideWindow() if !@backTick.down or !@ctrl.down
+    @Apostrophe.down = no if e.which is @Apostrophe.code
+    @cmd.down = no if e.which is @cmd.code
+    @hideWindow() if !@Apostrophe.down or !@cmd.down
 
   showWindow: ->
     @window.style.display = 'block'
