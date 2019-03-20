@@ -119,7 +119,7 @@ module.exports = AtomShortcuts =
           Focus pane left/right/up/down
         </div>
       </div>
-      <!-- /View/Window Manipulation -->
+      <!-- /View/Window/Tab/Pane Manipulation -->
     </div>
     <!-- /First column -->
     <!-- Second column -->
