@@ -93,7 +93,7 @@ module.exports = AtomShortcuts =
       <!-- /Find section -->
       <!-- View/Window/Tab/Pane Manipulation -->
       <div class='section'>
-        <h2>View/Window Manipulation</h2>
+        <h2>View/Window/Tab/Pane Manipulation</h2>
         <div class='item'>
           <p><b>⌘+ \ </b></p>
           Toggle tree-view sidebar
