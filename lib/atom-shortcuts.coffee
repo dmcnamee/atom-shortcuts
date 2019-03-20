@@ -120,6 +120,18 @@ module.exports = AtomShortcuts =
       <div class='section'>
         <h2>File Navigation</h2>
         <div class='item'>
+          <p><b>⌘+ w </b></p>
+          Close tab
+        </div>
+        <div class='item'>
+          <p><b>⌘+ n </b></p>
+          New file
+        </div>
+        <div class='item'>
+          <p><b>⌘+ o </b></p>
+          Open file
+        </div>
+        <div class='item'>
           <p><b>⌘ + p</b></p>
           Toggle file finder
         </div>
@@ -129,7 +141,11 @@ module.exports = AtomShortcuts =
         </div>
         <div class='item'>
           <p><b>⌘ + r</b></p>
-          Goto symbol
+          Go to symbol
+        </div>
+        <div class='item'>
+          <p><b>shift + ⌘ + r</b></p>
+          Go to symbol in project
         </div>
         <div class='item'>
           <p><b>shift + ⌘ + { / }</b></p>
