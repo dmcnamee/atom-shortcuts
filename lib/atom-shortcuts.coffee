@@ -91,7 +91,7 @@ module.exports = AtomShortcuts =
         </div>
       </div>
       <!-- /Find section -->
-      <!-- View/Window Manipulation -->
+      <!-- View/Window/Tab/Pane Manipulation -->
       <div class='section'>
         <h2>View/Window Manipulation</h2>
         <div class='item'>
@@ -101,6 +101,14 @@ module.exports = AtomShortcuts =
         <div class='item'>
           <p><b>ctrl + ⌘ + f</b></p>
           Toggle fullscreen
+        </div>
+        <div class='item'>
+          <p><b>shift + ⌘ + [</b></p>
+          Tab left
+        </div>
+        <div class='item'>
+          <p><b>shift + ⌘ + ]</b></p>
+          Tab right
         </div>
         <div class='item'>
           <p><b>⌘ + k, left/right/up/down</b></p>

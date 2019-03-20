@@ -16,5 +16,10 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "apmInstallSource": {
+    "type": "git",
+    "source": "dmcnamee/atom-shortcuts",
+    "sha": "c7d798b224f71108f45c64d095733daa170a281e"
+  }
 }
